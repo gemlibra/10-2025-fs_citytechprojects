@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hotel Reservation Home page</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+         
+    <div class="main_container">
+            
+                <h1 id="home"><b>Home</b></h1>
+
+                 <!--MODAL (POPUP-->
+        
+                  <!--  <button id="openModal">Open</button> -->
+        
+                <div id="mymodal" class="gxmodal">
+                    <!--Modal content-->
+                    <div id="modalcontent">
+                        <span id="closebtn">&times;</span>
+                        <h2 id="modaltitle">Attention!</h2>
+                        <p>Your information was submitted successfully, thank you!</p>
+                    </div>
+                </div>
+      
+        
+            <!--PAGE HEADER-->
+            <header>  
+                <section id="hdrsection">
+                <div id="navitems">
+                    <nav id="hdrnav">  <!--NOTE: WHEN SCREEN SIZE DECREASES, NAV = HAMBURGER OR <LINKS>-->
+                            <a href="index.html">Home</a>
+                            <a href="aboutus.html">About Us</a>  
+                            <a href="contactus.html">Contact Us</a>
+                    </nav><br>
+                </div><br>
+                    
+                <div id="pagetitle">
+                    <h1 id="htlreserve">Hotel Reservation</h1>
+                </div>
+                    
+            </section>
+            <hr>
+                
+                
+            <section class="hdrsection">
+                <div id="hotellogo">
+                    <img src="assets/img/bluatlanticbldgimage.jpg" id="bluatlbldgpic">
+
+                     <div id="hotelname">
+                        <h1 id="hotelnamefont"><b><i>Blu Atlantic</i></b></h1>
+                     </div>
+                </div>
+
+             <aside class="asidetextanimated">
+                    <h5><b><i>Our motto:<br>Hospitality &amp; comfort</i></b></h5>
+             </aside>      
+
+            </section>
+
+        </header><br>
+        
+        <section id="carousel_sect">
+            
+            <div class="carousel_slide">
+                <!--Caroudel here-->
+            </div>
+        
+            
+        </section><br>
+        
+        <section>
+        <!--form: Guest Check-in-->
+           
+                <form action="#" id="formbgcolor"> <!--Insert name of file to be processed/executed in php-->
+                    <div class="alllabels">
+                            <div id="guestname">
+                                 <div>
+                                    <label id="firstname">
+                                        <b>First Name</b>:<br>
+                                        <input type="text" class="firstnm" name="firstname" required>
+                                    </label><br> 
+                                 </div>
+                                
+                                <div>
+                                    <label id="lastname">
+                                        <b>Last Name</b>:<br>
+                                        <input type="text" class="lastnm" name="lastname" required>
+                                    </label><br> 
+                                </div>
+                            </div>
+                            
+                            <div id="checkin_out_lbls">
+                                <label id="checkin">
+                                    <b>Check In</b>:<br>
+                                    <input type="date">
+                                </label><br>
+
+                                <label id="checkout">
+                                    <b>Check Out</b>:<br>
+                                    <input type="date">
+                                </label><br>
+                            </div>
+
+                            <div id="guest_lbl">
+                                <label id="numberofguest">
+                                    <b>Number Of Guests</b>:<br>
+                                    <select id="selectnumguests" name="selectednumberofguests">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="3">4</option>
+                                        <option value="3">5</option>
+                                        <option value="3">6</option>
+                                    </select>
+                                </label><br>
+
+                                <label id="selectnumrooms">
+                                    <b>Number Of Rooms</b>:<br>
+                                    <select id="selectnumrms" name="selectednumberofrms">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="3">4</option>
+                                        <option value="3">5</option>
+                                        <option value="3">6</option>
+                                    </select>
+                                </label><br>
+                            </div><br>
+
+                        <button id="btnsubmit">Book Now</button>
+                        <button id="btnsearch">Search</button>
+                      
+                        
+                    </div>
+                </form>
+           
+        </section>
+        
+    </div>  <!--container div end-->
+        
+    <script src="js/script.js"></script>
+    </body>
+</html>

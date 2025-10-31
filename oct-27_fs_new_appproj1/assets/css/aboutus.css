@@ -1,0 +1,74 @@
+
+body{
+    background-image: url(../img/bgimagecitylights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home{
+    color: white;
+}
+
+a{
+   margin-right: 10px;
+}
+
+
+ #htlreserve{
+    text-align: center;
+    width: 200px;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 13px;
+    justify-content: center; 
+}
+
+#pagetitle{
+    display: grid;
+    place-items: center;
+}
+
+
+#hotellogo{
+    display: flex;
+}
+
+#bluatlbldgpic{
+    margin-left: 10px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+#hotelnamefont{
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white; 
+    margin-left: 600px;
+}
+
+
+.aboutuscontent{
+    display: flex;
+    overflow: auto; /*This enables scrool of content if needed */
+}
+
+#introid, #restaurantid{
+    background-color: blue;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    color: white;
+    margin-right: 12px;
+}
+
+#restaurantcaption{
+    color: white;
+}
+
+
+
+

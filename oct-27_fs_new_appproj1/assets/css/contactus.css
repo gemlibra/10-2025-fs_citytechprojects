@@ -1,0 +1,150 @@
+
+body{
+    background-image: url(../img/bgimagecitylights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#modalcontent{
+    position: relative;
+    z-index: 2;
+}
+
+/* External outer div styling*/
+#mymodal{
+    display: none; 
+  /*  border: 1px solid red; */
+  /*  background-color: lightblue;  */
+    border-radius: 10px;
+    width: 200px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    overflow: auto;
+}
+
+/*inner div - modal content styling*/
+#modalcontent{
+    background-color: blue;
+    color: white;
+    margin: 15% auto;
+    border: 1px solid dotted;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+   
+}
+
+/* close button 'X' styling*/
+
+#closebtn{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#closebtn:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#home{
+    color: white;
+}
+
+a{
+   margin-right: 10px;
+}
+
+ #htlreserve{
+    text-align: center;
+    width: 200px;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 13px;
+    justify-content: center; 
+}
+
+#pagetitle{
+    display: grid;
+    place-items: center;
+}
+
+
+#hotellogo{
+    display: flex;
+}
+
+#bluatlbldgpic{
+    margin-left: 10px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+#hotelnamefont{
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white; 
+    margin-left: 600px;
+}
+
+
+
+#myform{
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+
+label{
+    color: blue;
+}
+
+.usernames{
+    display: flex;
+}
+
+#firstnameid{
+    margin-right: 10px;
+}
+
+#emailid2{
+    margin-right: 10px;
+}
+
+.emailandtelid{
+    display: flex;
+}
+
+textarea{
+    width: 482px;
+}
+
+#submitbtn{
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+
+#mapimage{
+    display: grid;
+    place-items: center;
+}
+

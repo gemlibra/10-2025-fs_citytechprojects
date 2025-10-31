@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8" />
+        <title>Contact us page</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+        <link rel="stylesheet" href="assets/css/contactus.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div id="contactushdr">
+                <h1 id="hdr"><b>Contact Us</b></h1>
+            </div>
+            
+             <!--MODAL (POPUP-->
+        <div id="mymodal" class="gxmodal">
+            <!--Modal content-->
+            <div id="modalcontent">
+                <span id="closebtn">&times;</span>   <!--this progamatic symbol for letter "X"-->
+                <h2 id="modaltitle">Attention!</h2>
+                <p>Your details was saved successfully, thank you!</p>
+            </div>
+        </div>
+            
+            <section id="hdrsection">
+                <div>
+                    <nav id="hdrnav">  <!--NOTE: WHEN SCREEN SIZE DECREASES, NAV = HAMBURGER OR <LINKS>-->
+                            <a href="index.html">Home</a>
+                            <a href="aboutus.html">About Us</a>  
+                            <a href="contactus.html">Contact Us</a>
+                    </nav><br>
+                </div>
+                
+            <div>
+                <div id="pagetitle">
+                        <h1 id="htlreserve">Hotel Reservation</h1>
+                    </div>
+
+                    <div id="hotellogo">
+                        <img src="assets/img/bluatlanticbldgimage.jpg" id="bluatlbldgpic">
+
+                         <div id="hotelname">
+                            <h1 id="hotelnamefont"><b><i>Blu Atlantic</i></b></h1>
+                         </div>
+                    </div>
+            </div>
+            </section>
+            <hr>
+            
+
+            <section>
+            <div id="myform"> 
+                    <form action="#"> <!--Insert name of executable file (php process file)-->
+                <div class="usernames">
+                    <div>  
+                        <label id="firstnameid">
+                          <b>First name:</b><br>
+                           <input type="text" name="user_firstname" size="29" required>
+                        </label><br>
+                    </div>
+                          
+                    <div>    
+                        <label id="lastnameid">
+                           <b>Last Name:</b><br>
+                           <input type="text" name="user_lastname" size="29" required>
+                        </label><br>    
+                    </div>
+                </div>
+                
+                <div class="emailandtelid">
+                    <div id="emailid1">
+                       <label id="emailid2">
+                           <b>Email:</b><br>
+                           <input type="email" name="user_email" size="29" required>
+                        </label><br>
+                    </div>
+                        
+                    <div id="telnumid">
+                        <label>
+                            <b>Telephone:</b><br>
+                            <input type="tel" id="phonenum" name="phone" size="29" required>
+                        
+                        </label><br>
+                    </div>
+                </div>
+
+                        <label>
+                            <b>Comments:</b><br>
+                            <textarea id="commentid" name="user_comments" rows="5" cols="30" placeholder="Enter comments here"></textarea>
+
+                        </label><br>
+                        
+                         <button type="submit" name="submitbtn" id="submitbtn"><b>Submit</b></button>
+                        
+                    </form><br>
+                   
+            </div>
+            </section>
+            
+            <hr> <!--Horizontal Rule -->
+            
+            <!--Map section-->
+            <section>
+                <div id="mapimage">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.641633775196!2d3.4721615000000003!3d6.440046399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf52715f3f8f9%3A0xaec4508a11d8603d!2sBlu%20Atlantic%20Hotel!5e0!3m2!1sen!2sus!4v1760402510647!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Blu Atlantic location"></iframe>
+                </div>
+            </section><br>
+            
+            <hr>
+                
+                  
+
+            <section id="footersection">
+
+                <footer id="footertext">
+                    <small>&copy; 2025 J3z Global IT Solutions. All Rights Reserved</small>
+                </footer>
+
+            </section> 
+        
+        </div>
+
+    
+    </body>
+</html>

@@ -1,0 +1,218 @@
+
+body{
+    background-image: url(../img/bgimagecitylights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#modalcontent{
+    position: relative;
+    z-index: 2;
+}
+
+/*
+/* External outer div styling*/
+
+
+
+/*inner div - modal content styling*/
+#modalcontent{
+    display: none;
+    left: 0;
+    top: 0;
+    text-align: center;
+    overflow: auto;
+    background-color: blue;
+    color: white;
+    margin: 15% auto;
+    border: 1px solid dotted;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+   
+}
+
+/* close button 'X' styling*/
+
+#closebtn{
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#closebtn:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#home{
+    color: white;
+}
+
+a{
+   margin-right: 10px;
+}
+
+ #htlreserve{
+    text-align: center;
+    width: 200px;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 13px;
+    justify-content: center; 
+}
+
+#pagetitle{
+    display: grid;
+    place-items: center;
+}
+
+#hotelnamefont{
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white; 
+    margin-left: 600px;
+}
+
+
+
+#hotellogo{
+    display: flex;
+}
+
+#bluatlbldgpic{
+    margin-left: 10px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+aside{
+    font-family: "Tangerine", cursive;
+    font-size: 30px;
+    float: right;
+    color: white;
+    border: 1px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/*Aside Element animation */
+
+/* The code below executes the 3D spinner defined in the html paragraph*/
+  .asidetextanimated{
+      animation-name: rotatinglaptopgraphic;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;   /* <= This controls the animation speed. */
+      transform-style: preserve-3d;
+    }
+
+    /* WebKit and Opera browsers */
+    @-webkit-keyframes rotatinglaptopgraphic {
+      from { -webkit-transform: rotateY(0deg);
+      }
+      to   { -webkit-transform: rotateY(-360deg);}
+    }
+    
+    /* all other browsers */
+    @keyframes rotatinglaptopgraphic {
+      from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+      to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+      }
+    }
+/*ANIMATION CSS END HERE */
+
+ /*Form controls below */
+
+form{
+    display: grid;
+    place-items: center;
+}
+ 
+.alllabels{
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 20pc;
+    opacity: 0.8;
+    color: blue;
+    margin-top: 200px;
+}
+
+
+/*ANIMATION ENDS HERE */
+
+.guestname{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.alllabels{
+    margin-bottom: 20px;
+}
+
+#checkin_out_lbls{
+    display: flex;
+    margin-bottom: 15px;
+}
+#checkin{
+    margin-right: 48px;
+}
+
+#guest_lbl{
+    display: flex;
+}
+
+#selectnumguests{ /*expand width of select control box */
+    width: 110px;
+    margin-right: 57px;
+}
+
+#selectnumrms{  /*expand width of select control box */
+    width: 110px;
+}
+
+#btnsubmit{
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+    
+#btnsearch{
+    background-color: blue;
+    font-size: 18px;   
+    color: white;
+    float: right;
+    margin-bottom: 5px; 
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
