@@ -81,11 +81,11 @@ a{
     margin-left: 600px;
 }
 
-
-
 #hotellogo{
     display: flex;
 }
+
+
 
 #bluatlbldgpic{
     margin-left: 10px;
@@ -148,7 +148,6 @@ form{
     background-color: lightblue;
     border: 1px solid blue;
     border-radius: 10px;
-    width: 20pc;
     opacity: 0.8;
     color: blue;
     margin-top: 200px;
@@ -157,35 +156,40 @@ form{
 
 /*ANIMATION ENDS HERE */
 
-.guestname{
+#guestname{
     display: flex;
     margin-bottom: 10px;
+    gap: 10px;
 }
 
 .alllabels{
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 #checkin_out_lbls{
     display: flex;
     margin-bottom: 15px;
-}
-#checkin{
-    margin-right: 48px;
+    gap: 10px;
+    text-align-last: center;
 }
 
 #guest_lbl{
     display: flex;
 }
 
-#selectnumguests{ /*expand width of select control box */
-    width: 110px;
-    margin-right: 57px;
+#checkin_out_lbls, #guest_lbl{
+    margin-left: 55px;
 }
 
-#selectnumrms{  /*expand width of select control box */
-    width: 110px;
+#selectnumguests, #selectnumrms{
+    width: 120px;
 }
+
+#selectnumguests{
+    margin-right: 15px;
+}
+
 
 #btnsubmit{
     background-color: blue;

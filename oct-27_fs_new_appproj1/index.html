@@ -55,6 +55,7 @@
 
                      <div id="hotelname">
                         <h1 id="hotelnamefont"><b><i>Blu Atlantic</i></b></h1>
+                        <span id="bluatlsubname">Hotel</span>
                      </div>
                 </div>
 
@@ -109,29 +110,33 @@
                             </div>
 
                             <div id="guest_lbl">
-                                <label id="numberofguest">
-                                    <b>Number Of Guests</b>:<br>
-                                    <select id="selectnumguests" name="selectednumberofguests">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="3">4</option>
-                                        <option value="3">5</option>
-                                        <option value="3">6</option>
-                                    </select>
-                                </label><br>
+                                <div class="numguests">
+                                    <label id="numberofguest">
+                                        <b>Num. Of Guests</b>:<br>
+                                        <select id="selectnumguests" name="selectnumguests">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="3">4</option>
+                                            <option value="3">5</option>
+                                            <option value="3">6</option>
+                                        </select>
+                                    </label><br>
+                                </div>
 
-                                <label id="selectnumrooms">
-                                    <b>Number Of Rooms</b>:<br>
-                                    <select id="selectnumrms" name="selectednumberofrms">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="3">4</option>
-                                        <option value="3">5</option>
-                                        <option value="3">6</option>
-                                    </select>
-                                </label><br>
+                                <div class="numrooms">
+                                    <label id="selectnumrooms">
+                                        <b>Num. Of Rms</b>:<br>
+                                        <select id="selectnumrms" name="selectnumrms">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="3">4</option>
+                                            <option value="3">5</option>
+                                            <option value="3">6</option>
+                                        </select>
+                                    </label><br>
+                                </div>
                             </div><br>
 
                         <button id="btnsubmit">Book Now</button>
