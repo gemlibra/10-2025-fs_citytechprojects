@@ -6,13 +6,20 @@ const myModal = document.getElementById("modalcontent"); // get modal from page.
 const openModalbtn = document.getElementById("openModal");
 const closeModal = document.getElementById("closebtn");
 
+ $(document).ready(function() {
+            $('#toggleButton').on('click', function() {
 
-/* Step2: //Show modal (popup) */
+                $('#myElement').toggle();
+            });
+        });
+
+/* Step2: //Show modal (popup) 
 
 
 openModalbtn.onclick = function() {
     myModal.style.display = "block"; 
 };
+*/
 
 
 

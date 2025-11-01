@@ -71,7 +71,7 @@ a{
     place-items: center;
 }
 
-#hotelnamefont{
+#hotelname{
     font-family: "Tangerine", cursive;
     font-weight: 700;
     font-style: normal;
@@ -79,7 +79,14 @@ a{
     border-radius: 10px;
     color: white; 
     margin-left: 600px;
+    width: 230px;
+    height: 100px;
 }
+
+#bluatlsubname{
+    float: right;
+}
+
 
 #hotellogo{
     display: flex;
