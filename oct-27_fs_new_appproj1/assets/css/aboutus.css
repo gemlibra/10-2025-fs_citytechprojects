@@ -30,18 +30,6 @@ a{
 }
 
 
-#hotellogo{
-    display: flex;
-}
-
-#bluatlbldgpic{
-    margin-left: 10px;
-    border: 2px solid lightblue;
-    border-radius: 15px;
-    justify-content: space-around;
-}
-
-
 #hotelname{
     font-family: "Tangerine", cursive;
     font-weight: 700;
@@ -49,14 +37,36 @@ a{
     border: 2px solid blue;
     border-radius: 10px;
     color: white; 
-    margin-left: 600px;
-    width: 230px;
     height: 100px;
+}
+
+#hotellogo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bluatlbldgpic{
+    margin-left: 10px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    justify-content: space-around;
+    float: left;
+}
+
+.hospitalitytext{
+    font-family: "Tangerine", cursive;
+    font-size: 30px;
+    float: right;
+    color: white;
+    border: 1px solid red;
+    border-radius: 15px;
+    text-align: center;
 }
 
 #bluatlsubname{
     float: right;
 }
+
 
 
 .aboutuscontent{
@@ -75,6 +85,40 @@ a{
 #restaurantcaption{
     color: white;
 }
+
+
+/*Aside Element animation */
+/* The code below executes the 3D spinner defined in the html paragraph*/
+  .hospitalitytext{
+      animation-name: rotatinglaptopgraphic;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;   /* <= This controls the animation speed. */
+      transform-style: preserve-3d;
+    }
+
+    /* WebKit and Opera browsers */
+    @-webkit-keyframes rotatinglaptopgraphic {
+      from { -webkit-transform: rotateY(0deg);
+      }
+      to   { -webkit-transform: rotateY(-360deg);}
+    }
+    
+    /* all other browsers */
+    @keyframes rotatinglaptopgraphic {
+      from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+      to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+      }
+    }
+/*ANIMATION CSS END HERE */
+
 
 
 

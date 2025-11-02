@@ -78,30 +78,23 @@ a{
     border: 2px solid blue;
     border-radius: 10px;
     color: white; 
-    margin-left: 600px;
-    width: 230px;
     height: 100px;
 }
 
-#bluatlsubname{
-    float: right;
-}
-
-
 #hotellogo{
     display: flex;
+    justify-content: space-between;
 }
-
-
 
 #bluatlbldgpic{
     margin-left: 10px;
     border: 2px solid lightblue;
     border-radius: 15px;
     justify-content: space-around;
+    float: left;
 }
 
-aside{
+.hospitalitytext{
     font-family: "Tangerine", cursive;
     font-size: 30px;
     float: right;
@@ -111,10 +104,13 @@ aside{
     text-align: center;
 }
 
-/*Aside Element animation */
+#bluatlsubname{
+    float: right;
+}
 
+/*Aside Element animation */
 /* The code below executes the 3D spinner defined in the html paragraph*/
-  .asidetextanimated{
+  .hospitalitytext{
       animation-name: rotatinglaptopgraphic;
       animation-timing-function: linear;
       animation-iteration-count: infinite;

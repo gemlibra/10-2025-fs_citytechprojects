@@ -3,13 +3,13 @@
 
 /* Step1: Target modal element*/
 const myModal = document.getElementById("modalcontent"); // get modal from page.
-const openModalbtn = document.getElementById("openModal");
+const openModalBtn = document.getElementById("openModal");
 const closeModal = document.getElementById("closebtn");
 
  $(document).ready(function() {
-            $('#toggleButton').on('click', function() {
-
-                $('#myElement').toggle();
+    const openModalbtn = document.getElementById("openModal");
+            $('openModalBtn').on('click', function() {
+                $('myNodal').show();
             });
         });
 
